@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "description": "flex 增强实现",
   "main": "dist/class.css",
+  "author": "aco <wwsxuan@163.com>",
+  "bugs": {
+    "url": "https://github.com/acccco/flex-x/issues"
+  },
+  "keywords": [
+    "flex"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/acccco/flex-x.git"
@@ -10,10 +17,6 @@
   "scripts": {
     "build": "postcss ./src/* --dir dist --ext css"
   },
-  "keywords": [
-    "flex"
-  ],
-  "author": "Aco",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^9.7.4",

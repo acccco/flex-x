@@ -1,0 +1,15 @@
+{
+  "name": "flex-x",
+  "version": "1.0.0",
+  "description": "flex 增强实现",
+  "main": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acccco/flex-x.git"
+  },
+  "keywords": [
+    "flex"
+  ],
+  "author": "Aco",
+  "license": "MIT"
+}

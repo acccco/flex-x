@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+.flex-x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: stretch;
+
+  // 主轴方向
+  &.m-l-r {
+    flex-direction: row;
+  }
+
+  &.m-r-l {
+    flex-direction: row-reverse;
+  }
+
+  &.m-t-b {
+    flex-direction: column;
+  }
+
+  &.m-b-t {
+    flex-direction: column-reverse;
+  }
+
+  // 容器行内内容块主轴方向上的空间分配
+  &.m-space-start,
+  &.m-s-start {
+    justify-content: flex-start;
+  }
+
+  &.m-space-end,
+  &.m-s-end {
+    justify-content: flex-end;
+  }
+
+  &.m-space-center,
+  &.m-s-center {
+    justify-content: center;
+  }
+
+  &.m-space-around,
+  &.m-s-around {
+    justify-content: space-around;
+  }
+
+  &.m-space-between,
+  &.m-s-between {
+    justify-content: space-between;
+  }
+
+  &.m-space-evenly,
+  &.m-s-evenly {
+    justify-content: space-evenly;
+  }
+
+  &.m-space-avg,
+  &.m-s-avg {
+    > * {
+      width: 10px;
+      flex: auto;
+    }
+  }
+
+  // 容器行内内容块交叉轴方向上的空间分配
+  &.a-space-start,
+  &.a-s-start {
+    align-items: flex-start;
+  }
+
+  &.a-space-end,
+  &.a-s-end {
+    align-items: flex-end;
+  }
+
+  &.a-space-center,
+  &.a-s-center {
+    align-items: center;
+  }
+
+  &.a-space-baseline,
+  &.a-s-baseline {
+    align-items: baseline;
+  }
+
+  &.a-space-stretch,
+  &.a-s-stretch {
+    align-items: stretch;
+  }
+
+  .start {
+    align-self: flex-start;
+  }
+
+  .end {
+    align-self: flex-end;
+  }
+
+  .center {
+    align-self: center;
+  }
+
+  .baseline {
+    align-self: baseline;
+  }
+
+  .stretch {
+    align-self: stretch;
+  }
+
+  // 多行容器以及交叉轴方向
+  &.a-t-b,
+  &.a-l-r {
+    flex-wrap: wrap;
+  }
+
+  &.a-b-t,
+  &.a-r-l {
+    flex-wrap: wrap-reverse;
+  }
+
+  // 容器行空间分配
+  &.r-space-start,
+  &.r-s-start {
+    align-content: flex-start;
+  }
+
+  &.r-space-end,
+  &.r-s-end {
+    align-content: flex-end;
+  }
+
+  &.r-space-center,
+  &.r-s-center {
+    align-content: center;
+  }
+
+  &.r-space-around,
+  &.r-s-around {
+    align-content: space-around;
+  }
+
+  &.r-space-between,
+  &.r-s-between {
+    align-content: space-between;
+  }
+
+  &.r-space-evenly,
+  &.r-s-evenly {
+    align-content: space-evenly;
+  }
+
+  &.r-space-stretch,
+  &.r-s-stretch {
+    align-content: stretch;
+  }
+}

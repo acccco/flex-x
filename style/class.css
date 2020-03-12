@@ -1,8 +1,5 @@
 .flex-x {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: stretch; }
+  display: flex; }
   .flex-x.m-l-r {
     flex-direction: row; }
   .flex-x.m-r-l {

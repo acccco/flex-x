@@ -60,28 +60,28 @@
   }
 
   // 容器行内内容块交叉轴方向上的空间分配
-  &[a-space="start"],
-  &[a-s="start"] {
+  &[c-space="start"],
+  &[c-s="start"] {
     align-items: flex-start;
   }
 
-  &[a-space="end"],
-  &[a-s="end"] {
+  &[c-space="end"],
+  &[c-s="end"] {
     align-items: flex-end;
   }
 
-  &[a-space="center"],
-  &[a-s="center"] {
+  &[c-space="center"],
+  &[c-s="center"] {
     align-items: center;
   }
 
-  &[a-space="baseline"],
-  &[a-s="baseline"] {
+  &[c-space="baseline"],
+  &[c-s="baseline"] {
     align-items: baseline;
   }
 
-  &[a-space="stretch"],
-  &[a-s="stretch"] {
+  &[c-space="stretch"],
+  &[c-s="stretch"] {
     align-items: stretch;
   }
 
@@ -106,13 +106,13 @@
   }
 
   // 多行容器以及交叉轴方向
-  &[a="t-b"],
-  &[a="l-r"] {
+  &[c="t-b"],
+  &[c="l-r"] {
     flex-wrap: wrap;
   }
 
-  &[a="b-t"],
-  &[a="r-l"] {
+  &[c="b-t"],
+  &[c="r-l"] {
     flex-wrap: wrap-reverse;
   }
 

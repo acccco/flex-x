@@ -54,8 +54,7 @@
   &[m-space="average"],
   &[m-s="average"] {
     > * {
-      width: 10px;
-      flex: auto;
+      flex: 1 1 10px;
     }
   }
 
